@@ -1,0 +1,27 @@
+# macOS / OS files
+.DS_Store
+__MACOSX/
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+
+# Local data, outputs and model checkpoints
+Dataset_Splits/
+data/
+checkpoints*/
+figures*/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.tif
+*.tiff
